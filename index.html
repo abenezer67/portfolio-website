@@ -1,150 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel = "stylesheet" href = "portfoli.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Monsieur+La+Doulaise&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <link rel="stylesheet" href="styles.css">
-
-  <title>Portfolio</title>
 </head>
 <body>
-  <!-- NAVBAR -->
-  <nav>
-    <div class="left">
-      <a href="/">John Doe</a>
+    
+    <!--NAVBAR--> 
+    <nav> 
+        <div class = "left">
+            <a href = "/">Abenezer Nebyu </a>
+           
+             </div>
+        <div class="right">
+            <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>linkedin</span>
+            </a>
+
+            <a href="mailto:nebyuabenezer070@gmail.com" >
+               <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+             </div>
+             </div>
+        </div>
+    </nav>
+    <main> 
+        <!--Section: Hero-->
+        <section class = "hero-section" > 
+            <div class="text">
+          <h2> Hi , I'm Abenezer 👋</h2>
+          <p> I am Abenezer Nebyu, i am currently 
+            studying software engineering at
+             Hilcoe school of computer science and technology , 
+             I want to become a very good programmer 
+             in the next 6 months.I live in ethiopia,
+             Addis abeba around cmc michael.
+          </p>
+          <div class="links">
+            <a href = "#skills">
+             <i class="fa-solid fa-code"></i>
+                <span>Skills</span>
+                 </a>
+                 <a href = "#Timeline">
+             <i class="fa-solid fa-pen"></i>
+                <span>Journey</span>
+                 </a>
+
+                 <a href = "#certification">
+             <i class="fa-solid fa-certificate"></i>
+                <span>certification</span>
+                 </a>
+
+
+
+                 <a href = "#contact">
+             <i class="fa-solid fa-envelope"></i>
+                <span>Contact</span>
+                 </a>
+          </div>
+            </div>
+            <div class="head-shot">
+                <img src = "images/headshot.webp" alt = "image of Abenezer Nebyu"> 
+            </div>
+        </section> 
+
+        <section id = "skills" class = "Skillsection">
+            <h2> Skills</h2>
+            <div class="text">
+            <p> I am a Software Engineering student at Hilcoe School of Computer Science, focused on bridging the gap between academic foundations and practical application.
+             My current toolkit includes: </p>
+            </div>
+            <div class="cells">
+             <div class="cell">
+            <img src="images/html-logo.webp" alt="Html logo">
+            <span>HTML </span>
+            </div>
+             <div class="cell">
+            <img src="images/css-logo.webp" alt="css logo">
+            <span>CSS</span>
+            </div>
+            <div class="cell">
+            <img src="images/javascript-logo.webp" alt="javascript logo">
+            <span>javascript</span>
+            </div>
+            <div class="cell">
+            <img src="images/node-logo.webp" alt="nodejs logo">
+            <span>Node.js</span>
+            </div>
+            <div class="cell">
+            <img src="images/react-logo.webp" alt="react logo">
+            <span>React</span>
+            </div>
+        </div>
+             </section> 
+        <section id = "Timeline" class = "timelinesection">
+            <h2> How I went from zero to software engineering student</h2>
+  
+  <div class="timeline-item">
+    <div class="marker">
+      <div class="dot"></div>
     </div>
-
-    <div class="right">
-      <a href="http://github.com" target="_blank" rel="noopener noreferrer">
-        <i class="fa-brands fa-github"></i>
-        <span>Github</span>
-      </a>
-      
-      <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
-        <i class="fa-brands fa-linkedin"></i>
-        <span>Linkedin</span>
-      </a>
-      
-      <a href="mailto:john@example.com">
-        <i class="fa-solid fa-envelope"></i>
-        <span>Email</span>
-      </a>
+    <div class="content">
+      <span class="date-tag">Early 2024</span>
+      <p class="description">
+        Discovered programming and started learning HTML & CSS. 
+        Built my very first website immediately.
+      </p>
     </div>
-  </nav>
+  </div>
+<div class="timeline-item">
+    <div class="marker">
+      <div class="dot"></div>
+    </div>
+    <div class="content">
+      <span class="date-tag">Mid 2024</span>
+      <p class="description">
+        Started the Software Engineering program, diving deeper into algorithms, data structures, and computer science fundamentals.
+      </p>
+    </div>
+  </div>
+<div class="timeline-item">
+    <div class="marker">
+      <div class="dot"></div>
+    </div>
+    <div class="content">
+      <span class="date-tag">Late 2024</span>
+      <p class="description">
+       Earned Data Algorithms and Introduction to AI certifications from Udacity — expanding beyond web dev into computer science theory and AI.
+      </p>
+    </div>
+  </div>
+<div class="timeline-item">
+    <div class="marker">
+      <div class="dot"></div>
+    </div>
+    <div class="content">
+      <span class="date-tag">Now</span>
+      <p class="description">
+        Working with JavaScript, React, Node.js and building a portfolio to land my first developer role. Goal: become a very good programmer.
+      </p>
+    </div>
+  </div>
+        </section> 
 
-  <main>
-    <!-- SECTION 1: Hero -->
-    <section class="hero-section">
-      <div class="text">
-        <h2>Hi, I'm John 👋</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsam assumenda est perspiciatis labore quasi, iure dignissimos, libero, omnis sint necessitatibus ad. Hic expedita eligendi tenetur quisquam id quaerat alias cumque, autem voluptatem in iure ut laudantium tempora cupiditate voluptate est nemo impedit, quidem iusto, provident aperiam. Iste, repellat aperiam!</p>
 
-        <div class="links">
-          <a href="#skills">
-            <i class="fa-solid fa-code"></i>
-            <span>Skills</span>
-          </a>
-          
-          <a href="#testimony">
-            <i class="fa-solid fa-pen"></i>
-            <span>Testimony</span>
-          </a>
-          
-          <a href="#contact">
-            <i class="fa-solid fa-envelope"></i>
-            <span>Contact</span>
-          </a>
-        </div>
-      </div>
-
-      <div class="headshot">
-        <img src="images/hero-headshot.webp" alt="john doe headshot">
-      </div>
-    </section>
-
-    <!-- SECTION 2: Skills -->
-    <section id="skills" class="skills-section">
-      <h2>Skills</h2>
-      <div class="text">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, perspiciatis iure distinctio quidem aperiam necessitatibus omnis possimus excepturi amet quos rerum? Perferendis repellat natus saepe quaerat quibusdam neque recusandae optio?
-      </div>
-
-      <div class="cells">
-        <div class="cell">
-          <img src="images/html-logo.webp" alt="html logo">
-          <span>HTML</span>
-        </div>
-        
-        <div class="cell">
-          <img src="images/css-logo.webp" alt="css logo">
-          <span>CSS</span>
-        </div>
-        
-        <div class="cell">
-          <img src="images/javascript-logo.webp" alt="javascript logo">
-          <span>JavaScript</span>
-        </div>
-        
-        <div class="cell">
-          <img src="images/node-logo.webp" alt="node logo">
-          <span>Node.js</span>
-        </div>
-        
-        <div class="cell">
-          <img src="images/react-logo.webp" alt="react logo">
-          <span>React.js</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION 3: Testimony -->
-    <section id="testimony" class="testimony-section">
-      <h2>Testimony</h2>
-
-      <div class="group">
-        <div class="person-details">
-          <img src="images/testimony-headshot.webp">
-          <p>John Doe</p>
-          <p>Lorem ipsum dolor sit.</p>
+        <section id = "certification" class = "certsection"> 
+            <h2>certifications</h2>
+            <div class="subheader">
+            <h3>Credentials earned outside the classroom</h3>
+            </div>
+<div class="card"> 
+    <div class="icon-container">
+        <i class="fa-solid fa-wave-square"></i>
         </div>
 
-        <div class="text">
-          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, sint repudiandae ratione exercitationem saepe distinctio cumque quaerat nostrum laborum? Rem adipisci natus eos nemo reprehenderit, cumque nostrum enim commodi. Eum, enim vero eveniet doloremque sed veniam. Doloremque explicabo non reprehenderit expedita! Accusamus mollitia repellendus dolorum officiis libero quod deleniti cum."
-        </div>
-      </div>
-    </section>
+  <div class="card-info"> 
+    <h3>Data Structures & Algorithms</h3>
+    <p class="school">Udacity</p>
+    <div class="status-tag">Completed</div> </div>
 
-    <!-- SECTION 4: Contact -->
-    <section id="contact" class="contact-section">
-      <h2>Contact</h2>
-
-      <div class="group">
-        <div class="text">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat fugit maiores atque architecto saepe tenetur quasi reiciendis illum sint doloremque alias inventore, asperiores maxime pariatur totam hic assumenda repudiandae, iusto quisquam nisi! Eaque doloremque perspiciatis minus voluptate dicta. A ratione autem dolor iure libero numquam voluptatem nobis laborum et corporis.
+</div>
+<div class="card"> 
+    <div class="icon-container">
+        <i class="fa-brands fa-openai"></i>
         </div>
 
-        <form>
-          <label for="name">Name</label>
-          <input type="text" id="name">
+  <div class="card-info"> <h3>Introduction to Artificial Intelligence</h3>
+    <p class="school">Udacity</p>
+    <div class="status-tag">Completed</div> </div>
 
-          <label for="email">Email</label>
-          <input type="email" id="email">
+</div>
+        </section> 
 
-          <label for="message">Message</label>
-          <textarea id="message" cols="30" rows="10"></textarea>
 
-          <button type="submit">Send Message</button>
-        </form>
-      </div>
-    </section>
-  </main>
+        <section id = "contact" class = "contact-section"> 
+            <h2>Contact</h2>
+            <div class="group">
+                <div class="text">
+                <p> 
+                You can reach me by phone at <a href="tel:+251961730012">+251 961 730 012</a>, 
+    by email at <a href="mailto:nebyuabenezer070@gmail.com">nebyuabenezer070@gmail.com</a>, 
+    or find me on Telegram at <a href="https://t.me/abenant" target="_blank">@abenant</a>.
+    I'm always open to new opportunities, collaborations, or just a friendly chat about tech.
+                </p>
+                </div>
+                    <form>
+                    <label for="name">Name</label>
+                    <input type="text" id  = "name"> 
+
+                    <label for="email"> Email </label>
+                    <input type="email" id= "email">
+
+                    <label for="message"> Message</label>
+                    <textarea id = "message" cols = "30" rows = "10"></textarea> 
+                    <button type = "submit"> Send </button>  
+
+                    </form>
+                
+            </div>
+        </section> 
+       
+    </main>
+    
 </body>
 </html>
